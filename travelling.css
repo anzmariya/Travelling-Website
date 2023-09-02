@@ -1,0 +1,59 @@
+#head{
+    width: 100%;
+    background-color:  #003b95;
+}
+.clr{
+    color:  #003b95;
+}
+.clr1{
+    background-color:  #003b95;
+}
+
+.ul1{
+    list-style: none;
+}
+
+
+
+/* flag image at header section */
+.img1{
+    width: 20px;
+}
+
+/* font weight */
+.f1{
+    font-weight: 500;
+}
+
+#stays{
+    width: 100%;
+}
+
+/* Media Query */
+/* To doesnt display on small devices */
+@media (max-width:768px) {
+    #largeMenu{
+        visibility: hidden;
+        display: none;
+    } 
+    #smallMenu{
+        
+        display: block;
+}
+}
+/* To doesnt display large display devices */
+@media only screen and(min-width:768px) {
+    #smallMenu{
+        visibility: hidden;
+        display: none;
+    }
+    #largeMenu{
+    
+        display: block;
+    }
+}
+
+
+
+
+
