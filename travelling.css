@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 #head{
     width: 100%;
     background-color:  #003b95;
@@ -5,52 +10,39 @@
 .clr{
     color:  #003b95;
 }
-.clr1{
-    background-color:  #003b95;
+.clr2{
+    background-color: #003b95;
 }
-
+/* height used in head section */
+.height1{
+    height: 500px;
+    width: 100%;   
+}
 .ul1{
     list-style: none;
 }
-
-
-
+.wid{
+    width: 100%;
+}
 /* flag image at header section */
 .img1{
     width: 20px;
 }
-
 /* font weight */
 .f1{
     font-weight: 500;
 }
-
 #stays{
     width: 100%;
 }
+.cardimg{
+    object-fit: cover!important;
+    height: 100%;
+    width: 100%;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
 
-/* Media Query */
-/* To doesnt display on small devices */
-@media (max-width:768px) {
-    #largeMenu{
-        visibility: hidden;
-        display: none;
-    } 
-    #smallMenu{
-        
-        display: block;
-}
-}
-/* To doesnt display large display devices */
-@media only screen and(min-width:768px) {
-    #smallMenu{
-        visibility: hidden;
-        display: none;
-    }
-    #largeMenu{
-    
-        display: block;
-    }
 }
 
 
